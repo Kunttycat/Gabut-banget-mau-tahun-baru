@@ -3,7 +3,7 @@ func threeSum(nums []int) [][]int {
     result := [][]int{}
     
     for i := 0; i < len(nums)-2; i++ {
-        // Skip duplicate elements for the first element
+       
         if i > 0 && nums[i] == nums[i-1] {
             continue
         }
